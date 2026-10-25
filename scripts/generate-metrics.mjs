@@ -55,7 +55,7 @@ export function renderMetrics(data) {
   const updated=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Singapore',day:'numeric',month:'short',year:'numeric'}).format(new Date(generatedAt));
   let out=rect(0,0,960,640,'#0d1117',16,'#30363d');
   out+=text(26,38,'GitHub activity',24,'#e6edf3',650)+text(26,61,'A snapshot of the work behind the repositories',14);
-  [['PUBLIC PROJECTS',projectCount],['CONTRIBUTIONS',total],['ACTIVE DAYS',active],['ON GITHUB SINCE',joined.slice(0,4)]].forEach(([label,value],i)=>{
+  [['PUBLIC PROJECTS',projectCount],['PUBLIC CONTRIBUTIONS',total],['ACTIVE DAYS',active],['ON GITHUB SINCE',joined.slice(0,4)]].forEach(([label,value],i)=>{
     const x=24+i*232;
     out+=rect(x,82,216,80,'#161b22',10,'#27313c')+text(x+17,106,label,11,'#92a3b5',600)+text(x+17,143,i===3?value:number(value),30,i===1?'#7ee787':'#e6edf3',650);
   });
