@@ -1,41 +1,42 @@
-# Rahat Mir
+<p align="center">
+  <img src="assets/header.svg" alt="Rahat Mir — Software Engineering. Backend, full-stack and connected systems." width="100%">
+</p>
 
-**Software Engineering student · Backend, full-stack and connected systems**
+Software Engineering student at the **University of Gothenburg**, currently on exchange at the **National University of Singapore**. I enjoy connecting APIs, data and interfaces, then making their behaviour easier to test and understand.
 
-I'm studying Software Engineering at the **University of Gothenburg**, with expected graduation in **June 2027**. I'm currently on exchange at the **National University of Singapore** (August–December 2026).
+### Technologies I work with
 
-I'm looking for **student and internship opportunities from January 2027**, with a preference for **Gothenburg and Sweden-based remote work**.
+<p>
+  <img src="assets/technologies.svg" alt="Python, Java, C, Go, JavaScript, HTML, CSS, Vue, React, Node.js, Express, MongoDB, Firebase, Git, Postman and GitHub Actions" width="620">
+</p>
 
-## Selected work
+**Also:** SQL · MQTT · API testing · React Native / Expo
 
-### [StudyBuddy](https://github.com/Lifelessdice/Study-Buddy)
-A team-built university study workspace with courses, notes, quizzes, PDF processing and optional AI-assisted revision.
+### GitHub, at a glance
 
-**Vue 3 · Node.js · Express · MongoDB · Postman/Newman**
+<p>
+  <img src="assets/github-metrics.svg" alt="Real GitHub activity: public projects, contribution totals, weekday activity, language distribution and a 3D contribution calendar" width="100%">
+</p>
 
-My contributions include API checks, shared note-validation and AI-handler refactoring, PDF-processing changes and responsive UI work.
+<sub>[Metric definitions and sources](docs/profile-metrics.md) · [Public snapshot](data/public-metrics.json)</sub>
 
-### [SmartSprout](https://github.com/Lifelessdice/Plant-Sprouts-App)
-A team-built IoT plant-monitoring prototype connecting environmental sensors with a mobile dashboard.
+### Selected projects
 
-**React Native · Expo · Node.js · MQTT · Firebase**
+| Project | What it explores | Stack |
+| --- | --- | --- |
+| [**StudyBuddy**](https://github.com/Lifelessdice/Study-Buddy) | University study workspace with notes, quizzes, PDF processing and optional AI-assisted revision. **Team project.** | Vue · Express · MongoDB |
+| [**SmartSprout**](https://github.com/Lifelessdice/Plant-Sprouts-App) | Sensor-to-dashboard plant monitoring through a Wio Terminal and MQTT. **Team project.** | React Native · Node.js · Firebase |
+| [**Flight Deal Tracker**](https://github.com/Lifelessdice/singapore-flight-deal-tracker) | Scheduled fare monitoring, statistical comparisons, quota controls and Discord alerts. | JavaScript · GitHub Actions |
 
-My contribution: backend development, the backend MQTT connection and displaying sensor readings in the frontend.
+<details>
+<summary><strong>My contributions to the team projects</strong></summary>
 
-### [Singapore Flight Deal Tracker](https://github.com/Lifelessdice/singapore-flight-deal-tracker)
-Scheduled fare monitoring with statistical price comparisons, quota controls and Discord alerts, plus a browser-based route journal.
+**StudyBuddy:** Postman API checks, shared note-validation and AI-handler refactoring, PDF-processing changes and responsive UI work.
 
-**JavaScript · Node.js · GitHub Actions · HTML/CSS**
+**SmartSprout:** backend development, the backend MQTT connection and displaying sensor readings in the frontend.
 
-The repository includes architecture documentation, deterministic offline checks and explicit handling of uncertain fare and transit evidence.
+These are individual contributions within shared team work; the project repositories retain the wider team context.
 
-## Technical toolkit
+</details>
 
-| Area | Languages and tools |
-| --- | --- |
-| Programming | Python, Java, C, Go, JavaScript, SQL |
-| Web and APIs | Vue, React Native, Node.js, Express, HTML, CSS |
-| Data and messaging | MongoDB, Firestore, MQTT |
-| Testing and development | Postman, Newman, Git |
-
-I'm particularly interested in making APIs, data flows and software behaviour easy to test and understand. My [learning journal](https://github.com/Lifelessdice/ml-learning-log) records ongoing Python and data-analysis study.
+[Learning journal →](https://github.com/Lifelessdice/ml-learning-log)
